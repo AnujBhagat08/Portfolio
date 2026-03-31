@@ -55,7 +55,7 @@ export default function Footer() {
           initial={{ width: 0, opacity: 0 }}
           whileInView={{ width: 90, opacity: 1 }}
           transition={{ duration: 0.6}}
-          className="h-[2px] bg-teal-400 mx-auto mt-3"
+          className="h-0.5 bg-teal-400 mx-auto mt-3"
         ></motion.div>
 
         {/* Social Icons */}
