@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: black;
+}
+
+h1,
+h2 {
+  font-family: "Roboto", sans-serif;
+}
+
+@layer utilities{
+  .gradient{
+    background: linear-gradient(-45deg, #302b63, #00bf8f  ,#1cd8d2);
+  }
+}
+
+/* Custom Toastify Success Style */
+.Toastify__toast--success {
+  background: #0f0f0f !important;
+  border-left: 4px solid #00ff41 !important;
+  color: white !important;
+}
+
+.Toastify__progress-bar--success {
+  background: #00ff41 !important;
+}
+
+html {
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+
+body {
+  -ms-overflow-style: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
